@@ -6,3 +6,5 @@
 3-Stabilire il vincitore, in base a chi fa il punteggio più alto.
 4-Stampare in console i tiri di dado e il risultato. 
 */
+
+console.log("ok")
