@@ -8,12 +8,12 @@
 */
 
 //ç 1-Generare un numero random da 1 a 6 per il giocatore.
-const gamerNumber = Math.random();
-console.log(Math.floor(gamerNumber * 6) + 1);
+const gamerNumber = (Math.floor(Math.random() * 6) + 1);
+console.log(gamerNumber);
 
 //ç 2-Generare un numero random da 1 a 6 per il computer.
-const computerNumber = Math.random();
-console.log(Math.floor(computerNumber * 6) + 1);
+const computerNumber = (Math.floor(Math.random() * 6) + 1);
+console.log(computerNumber);
 
 //ç 3-Stabilire il vincitore, in base a chi fa il punteggio più alto.
 let winner = false;
@@ -21,8 +21,8 @@ let winner = false;
 if (gamerNumber > computerNumber){
     winner = true;
     console.log(`Hai vinto!`);
-    else {
+}else {
         console.log(`Hai perso!`);
     }
-}
+
 
