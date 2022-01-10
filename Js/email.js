@@ -8,6 +8,17 @@ console.log("OK")
 4-stampa un messaggio appropriato in console sull’esito del controllo.
 */
 
-const addresses = [`carolina@gmail.com`, `luca.gmail.com`, `pietro@hotmail.com`, `sara@gmail.com`]
+const userAddress = parseInt(prompt('Inserisci il tuo indirizzo e-mail')); 
 
-console.table(addresses)
+const partecipants = [`carolina@gmail.com`, `luca.gmail.com`, `pietro@hotmail.com`, `sara@gmail.com`];
+
+console.table(partecipants)
+
+for (let i = 0; i < partecipants; i++){
+    if (userAddress = partecipants[i]){
+        console.log("la riunione iniziera' a momenti")
+    }
+    else !(userAddress = partecipants[i]){
+        console.log("Ops! la tua e-mail non è stata trovata, verifica la tua iscrizione")
+    }
+}
